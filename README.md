@@ -15,4 +15,13 @@
 * thanh toán đơn hàng
 * danh mục sách phù hợp - tích điểm theo thể loại sách
 * bộ lọc thể loại, giá tiền và tìm kiếm tên sách
+## Màu chủ đạo
+* #000000
+* #0F1F13
+* #3A4B3C
+* #839584
+* #D4E8D4
+* #FFFFFF
+  
+
 
