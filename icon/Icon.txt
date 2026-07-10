@@ -1,0 +1,19 @@
+1. Gắn thẻ link vào phần head của file html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+2. Dùng thẻ i với class là class của icon dưới đây để thêm icon
+ví dụ: <i class="fa fa-home"></i>
+3. Danh sách các icon sẽ sử dụng
+- tìm kiếm: <i class="fa-solid fa-magnifying-glass"></i>
+- mail: <i class="fa-solid fa-envelope"></i>
+- phone: <i class="fa-solid fa-phone-volume"></i>
+- bản quyền thuộc (copyright): <i class="fa-regular fa-copyright"></i>
+- xe tải: <i class="fa-solid fa-truck-fast"></i>
+- thêm vào giỏ hàng: <i class="fa-solid fa-cart-plus"></i>
+- chưa thêm vào wishlist: <i class="fa-regular fa-heart"></i>
+- đã thêm vào wishlist: <i class="fa-solid fa-heart"></i>
+- check: <i class="fa-solid fa-check"></i>
+- ô nhập mật khẩu: <i class="fa-solid fa-lock"></i>
+- xem mật khẩu: <i class="fa-solid fa-eye"></i>
+- ẩn mật khẩu: <i class="fa-solid fa-eye-slash"></i>
+
+
