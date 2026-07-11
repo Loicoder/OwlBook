@@ -9,7 +9,7 @@
     "price": 150000,
     "rating": 4.2,
     "stock_quantity": 25,
-    "click_count": 238
+    "click_count": 0
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "price": 95000,
     "rating": 4.9,
     "stock_quantity": 7,
-    "click_count": 162
+    "click_count": 0
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "price": 120000,
     "rating": 4.6,
     "stock_quantity": 8,
-    "click_count": 65
+    "click_count": 0
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "price": 120000,
     "rating": 4.6,
     "stock_quantity": 8,
-    "click_count": 254
+    "click_count": 0
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "price": 110000,
     "rating": 4.7,
     "stock_quantity": 19,
-    "click_count": 297
+    "click_count": 0
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "price": 95000,
     "rating": 4.5,
     "stock_quantity": 10,
-    "click_count": 199
+    "click_count": 0
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "price": 150000,
     "rating": 4.7,
     "stock_quantity": 12,
-    "click_count": 191
+    "click_count": 0
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
     "price": 180000,
     "rating": 4.8,
     "stock_quantity": 24,
-    "click_count": 84
+    "click_count": 0
   },
   {
     "id": 9,
@@ -105,7 +105,7 @@
     "price": 120000,
     "rating": 4.6,
     "stock_quantity": 25,
-    "click_count": 283
+    "click_count": 0
   },
   {
     "id": 10,
@@ -117,7 +117,7 @@
     "price": 75000,
     "rating": 4.7,
     "stock_quantity": 18,
-    "click_count": 204
+    "click_count": 0
   },
   {
     "id": 11,
@@ -129,7 +129,7 @@
     "price": 110000,
     "rating": 4.8,
     "stock_quantity": 5,
-    "click_count": 79
+    "click_count": 0
   },
   {
     "id": 12,
@@ -141,7 +141,7 @@
     "price": 110000,
     "rating": 4.2,
     "stock_quantity": 21,
-    "click_count": 12
+    "click_count": 0
   },
   {
     "id": 13,
@@ -153,7 +153,7 @@
     "price": 180000,
     "rating": 4.3,
     "stock_quantity": 7,
-    "click_count": 291
+    "click_count": 0
   },
   {
     "id": 14,
@@ -165,7 +165,7 @@
     "price": 110000,
     "rating": 4.9,
     "stock_quantity": 7,
-    "click_count": 280
+    "click_count": 0
   },
   {
     "id": 15,
@@ -177,7 +177,7 @@
     "price": 180000,
     "rating": 4.4,
     "stock_quantity": 0,
-    "click_count": 130
+    "click_count": 0
   },
   {
     "id": 16,
@@ -189,7 +189,7 @@
     "price": 75000,
     "rating": 4.4,
     "stock_quantity": 4,
-    "click_count": 107
+    "click_count": 0
   },
   {
     "id": 17,
@@ -201,7 +201,7 @@
     "price": 75000,
     "rating": 4.6,
     "stock_quantity": 3,
-    "click_count": 270
+    "click_count": 0
   },
   {
     "id": 18,
@@ -213,7 +213,7 @@
     "price": 120000,
     "rating": 4.5,
     "stock_quantity": 1,
-    "click_count": 223
+    "click_count": 0
   },
   {
     "id": 19,
@@ -225,7 +225,7 @@
     "price": 110000,
     "rating": 4.2,
     "stock_quantity": 20,
-    "click_count": 142
+    "click_count": 0
   },
   {
     "id": 20,
@@ -237,7 +237,7 @@
     "price": 95000,
     "rating": 4.3,
     "stock_quantity": 15,
-    "click_count": 98
+    "click_count": 0
   },
   {
     "id": 21,
@@ -249,7 +249,7 @@
     "price": 110000,
     "rating": 4.7,
     "stock_quantity": 8,
-    "click_count": 200
+    "click_count": 0
   },
   {
     "id": 22,
@@ -261,7 +261,7 @@
     "price": 180000,
     "rating": 4.9,
     "stock_quantity": 21,
-    "click_count": 186
+    "click_count": 0
   },
   {
     "id": 23,
@@ -273,7 +273,7 @@
     "price": 120000,
     "rating": 4.5,
     "stock_quantity": 9,
-    "click_count": 236
+    "click_count": 0
   },
   {
     "id": 24,
@@ -285,7 +285,7 @@
     "price": 110000,
     "rating": 4.8,
     "stock_quantity": 16,
-    "click_count": 80
+    "click_count": 0
   },
   {
     "id": 25,
@@ -297,7 +297,7 @@
     "price": 75000,
     "rating": 4.2,
     "stock_quantity": 18,
-    "click_count": 40
+    "click_count": 0
   },
   {
     "id": 26,
@@ -309,7 +309,7 @@
     "price": 110000,
     "rating": 4.3,
     "stock_quantity": 2,
-    "click_count": 40
+    "click_count": 0
   },
   {
     "id": 27,
@@ -321,7 +321,7 @@
     "price": 95000,
     "rating": 4.8,
     "stock_quantity": 11,
-    "click_count": 89
+    "click_count": 0
   },
   {
     "id": 28,
@@ -333,7 +333,7 @@
     "price": 110000,
     "rating": 4.7,
     "stock_quantity": 11,
-    "click_count": 28
+    "click_count": 0
   },
   {
     "id": 29,
@@ -345,7 +345,7 @@
     "price": 85000,
     "rating": 4.4,
     "stock_quantity": 0,
-    "click_count": 164
+    "click_count": 0
   },
   {
     "id": 30,
@@ -357,7 +357,7 @@
     "price": 120000,
     "rating": 4.4,
     "stock_quantity": 0,
-    "click_count": 197
+    "click_count": 0
   },
   {
     "id": 31,
@@ -369,7 +369,7 @@
     "price": 75000,
     "rating": 4.5,
     "stock_quantity": 18,
-    "click_count": 68
+    "click_count": 0
   },
   {
     "id": 32,
@@ -381,7 +381,7 @@
     "price": 95000,
     "rating": 5.0,
     "stock_quantity": 14,
-    "click_count": 200
+    "click_count": 0
   },
   {
     "id": 33,
@@ -393,7 +393,7 @@
     "price": 120000,
     "rating": 4.3,
     "stock_quantity": 6,
-    "click_count": 224
+    "click_count": 0
   },
   {
     "id": 34,
@@ -405,7 +405,7 @@
     "price": 95000,
     "rating": 4.4,
     "stock_quantity": 6,
-    "click_count": 117
+    "click_count": 0
   },
   {
     "id": 35,
@@ -417,7 +417,7 @@
     "price": 110000,
     "rating": 4.8,
     "stock_quantity": 1,
-    "click_count": 51
+    "click_count": 0
   },
   {
     "id": 36,
@@ -429,7 +429,7 @@
     "price": 95000,
     "rating": 4.9,
     "stock_quantity": 11,
-    "click_count": 186
+    "click_count": 0
   },
   {
     "id": 37,
@@ -441,7 +441,7 @@
     "price": 85000,
     "rating": 5.0,
     "stock_quantity": 24,
-    "click_count": 70
+    "click_count": 0
   },
   {
     "id": 38,
@@ -453,7 +453,7 @@
     "price": 180000,
     "rating": 4.3,
     "stock_quantity": 3,
-    "click_count": 141
+    "click_count": 0
   },
   {
     "id": 39,
@@ -465,7 +465,7 @@
     "price": 110000,
     "rating": 4.6,
     "stock_quantity": 13,
-    "click_count": 164
+    "click_count": 0
   },
   {
     "id": 40,
@@ -477,7 +477,7 @@
     "price": 95000,
     "rating": 4.9,
     "stock_quantity": 1,
-    "click_count": 288
+    "click_count": 0
   },
   {
     "id": 41,
@@ -489,7 +489,7 @@
     "price": 75000,
     "rating": 4.5,
     "stock_quantity": 16,
-    "click_count": 162
+    "click_count": 0
   },
   {
     "id": 42,
@@ -501,7 +501,7 @@
     "price": 110000,
     "rating": 4.3,
     "stock_quantity": 13,
-    "click_count": 41
+    "click_count": 0
   },
   {
     "id": 43,
@@ -513,7 +513,7 @@
     "price": 180000,
     "rating": 4.3,
     "stock_quantity": 19,
-    "click_count": 51
+    "click_count": 0
   },
   {
     "id": 44,
@@ -525,7 +525,7 @@
     "price": 110000,
     "rating": 4.4,
     "stock_quantity": 12,
-    "click_count": 129
+    "click_count": 0
   },
   {
     "id": 45,
@@ -537,7 +537,7 @@
     "price": 120000,
     "rating": 4.9,
     "stock_quantity": 23,
-    "click_count": 124
+    "click_count": 0
   },
   {
     "id": 46,
@@ -549,7 +549,7 @@
     "price": 95000,
     "rating": 4.6,
     "stock_quantity": 19,
-    "click_count": 264
+    "click_count": 0
   },
   {
     "id": 47,
@@ -561,7 +561,7 @@
     "price": 75000,
     "rating": 4.4,
     "stock_quantity": 15,
-    "click_count": 51
+    "click_count": 0
   },
   {
     "id": 48,
@@ -573,7 +573,7 @@
     "price": 150000,
     "rating": 4.5,
     "stock_quantity": 23,
-    "click_count": 122
+    "click_count": 0
   },
   {
     "id": 49,
@@ -585,7 +585,7 @@
     "price": 75000,
     "rating": 4.2,
     "stock_quantity": 24,
-    "click_count": 19
+    "click_count": 0
   },
   {
     "id": 50,
@@ -597,7 +597,7 @@
     "price": 110000,
     "rating": 4.3,
     "stock_quantity": 6,
-    "click_count": 69
+    "click_count": 0
   },
   {
     "id": 51,
@@ -609,7 +609,7 @@
     "price": 180000,
     "rating": 4.9,
     "stock_quantity": 19,
-    "click_count": 264
+    "click_count": 0
   },
   {
     "id": 52,
@@ -621,7 +621,7 @@
     "price": 110000,
     "rating": 4.6,
     "stock_quantity": 24,
-    "click_count": 216
+    "click_count": 0
   },
   {
     "id": 53,
@@ -633,7 +633,7 @@
     "price": 120000,
     "rating": 4.4,
     "stock_quantity": 14,
-    "click_count": 142
+    "click_count": 0
   },
   {
     "id": 54,
@@ -645,7 +645,7 @@
     "price": 75000,
     "rating": 4.6,
     "stock_quantity": 16,
-    "click_count": 91
+    "click_count": 0
   },
   {
     "id": 55,
@@ -657,7 +657,7 @@
     "price": 85000,
     "rating": 4.8,
     "stock_quantity": 10,
-    "click_count": 293
+    "click_count": 0
   },
   {
     "id": 56,
@@ -669,7 +669,7 @@
     "price": 180000,
     "rating": 4.8,
     "stock_quantity": 3,
-    "click_count": 286
+    "click_count": 0
   },
   {
     "id": 57,
@@ -681,7 +681,7 @@
     "price": 120000,
     "rating": 4.3,
     "stock_quantity": 23,
-    "click_count": 15
+    "click_count": 0
   },
   {
     "id": 58,
@@ -693,7 +693,7 @@
     "price": 150000,
     "rating": 4.7,
     "stock_quantity": 19,
-    "click_count": 227
+    "click_count": 0
   },
   {
     "id": 59,
@@ -705,7 +705,7 @@
     "price": 85000,
     "rating": 4.3,
     "stock_quantity": 20,
-    "click_count": 68
+    "click_count": 0
   },
   {
     "id": 60,
@@ -717,6 +717,6 @@
     "price": 95000,
     "rating": 5.0,
     "stock_quantity": 11,
-    "click_count": 250
+    "click_count": 0
   }
 ]
