@@ -9,19 +9,19 @@
     "price": 150000,
     "rating": 4.2,
     "stock_quantity": 25,
-    "click_count": 0
+    "click_count": 238
   },
   {
     "id": 2,
     "title": "90% Trẻ Thông Minh Nhờ Cách Trò Chuyện Của Cha Mẹ",
     "author": "Shichida",
-    "cover_image": "bia_sach/90_tre_thong_minh_nho_cach_tro_chuyen_cua_cha_me.jpg",
+    "cover_image": "bia_sach/90%_tre_thong_minh_nho_cach_tro_chuyen_cua_cha_me.jpg",
     "category": "Nuôi dạy con",
     "summary": "Cuốn sách truyền cảm hứng về chủ đề nuôi dạy con, giúp bạn có thêm nhiều góc nhìn sâu sắc và bài học giá trị thực tiễn. Dựa trên các nghiên cứu giáo dục sớm của phương pháp Shichida, tác phẩm nhấn mạnh tầm quan trọng đặc biệt của ngôn từ và thái độ của cha mẹ trong những năm đầu đời của trẻ. Sách cung cấp các chỉ dẫn cụ thể về cách giao tiếp, khen ngợi, và động viên nhằm kích thích tư duy sáng tạo, phát triển não bộ và xây dựng sự tự tin vững chắc cho con. Thay vì áp đặt hay trách mắng, việc thấu hiểu tâm lý và trò chuyện đúng cách sẽ giúp khơi dậy tiềm năng thiên bẩm, nuôi dưỡng lòng nhân ái cũng như chỉ số cảm xúc vượt trội, tạo nền tảng vững chắc cho tương lai của trẻ.",
     "price": 95000,
     "rating": 4.9,
     "stock_quantity": 7,
-    "click_count": 0
+    "click_count": 162
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "price": 120000,
     "rating": 4.6,
     "stock_quantity": 8,
-    "click_count": 0
+    "click_count": 65
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "price": 120000,
     "rating": 4.6,
     "stock_quantity": 8,
-    "click_count": 0
+    "click_count": 254
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "price": 110000,
     "rating": 4.7,
     "stock_quantity": 19,
-    "click_count": 0
+    "click_count": 297
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "price": 95000,
     "rating": 4.5,
     "stock_quantity": 10,
-    "click_count": 0
+    "click_count": 199
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "price": 150000,
     "rating": 4.7,
     "stock_quantity": 12,
-    "click_count": 0
+    "click_count": 191
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
     "price": 180000,
     "rating": 4.8,
     "stock_quantity": 24,
-    "click_count": 0
+    "click_count": 84
   },
   {
     "id": 9,
@@ -105,11 +105,11 @@
     "price": 120000,
     "rating": 4.6,
     "stock_quantity": 25,
-    "click_count": 0
+    "click_count": 283
   },
   {
     "id": 10,
-    "title": "Chuông Nguyện Hồn Ai",
+    "title": "Chương Nguyện Hồn Ai",
     "author": "Trích Tinh",
     "cover_image": "bia_sach/chuong_nguyen_hon_ai.jpg",
     "category": "Tiểu thuyết",
@@ -117,6 +117,6 @@
     "price": 75000,
     "rating": 4.7,
     "stock_quantity": 18,
-    "click_count": 0
+    "click_count": 204
   }
 ]
