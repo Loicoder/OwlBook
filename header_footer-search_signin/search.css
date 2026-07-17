@@ -1,0 +1,55 @@
+/* ========================================
+   CSS CHO KHUNG KẾT QUẢ TÌM KIẾM
+   ======================================== */
+
+/* Ô chứa search-box cần position: relative
+   để .search-results có thể định vị theo nó */
+.search-box {
+  position: relative;
+}
+
+/* Khung hiển thị kết quả tìm kiếm */
+.search-results {
+  position: absolute;   /* nổi lên trên các phần tử khác */
+  top: 100%;             /* nằm ngay bên dưới ô input */
+  left: 0;
+  right: 0;
+  margin-top: 8px;
+
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  max-height: 400px;
+  overflow-y: auto;
+
+  z-index: 999;          /* để nó nằm đè lên các phần tử khác */
+}
+
+/* Mỗi dòng kết quả (1 cuốn sách) */
+.ket-qua-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.ket-qua-item:hover {
+  background-color: #f5f5f5;
+}
+
+.ket-qua-item img {
+  width: 40px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Chữ báo không tìm thấy sách */
+.khong-co-ket-qua {
+  padding: 12px;
+  text-align: center;
+  color: #888;
+}

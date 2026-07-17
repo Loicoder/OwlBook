@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/general.css">
+    <link rel="stylesheet" href="/popup.css">
+    <link rel="stylesheet" href="/search.css">
+    <script src="/popup_signin_login.js" defer></script>
+    <script src="/search.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <!--bên trái thanh điều hướng-->
+        <div class="navbar-left">
+          <!--nút menu mobile-->
+          <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <!--logo + tên web-->
+          <a href="#" class="brand">
+            <div class="brand-logo">
+              <img src="/images/logoOwlbook.png" alt="Owlbook" />
+            </div>
+            <span class="brand-name">Owlbook</span>
+          </a>
+        </div>
+
+        <!--ở giữa thanh điều hướng-->
+        <nav class="navbar-center">
+          <ul>
+            <li><a href="#" class="navbar-center_link active">Home</a></li>
+            <li><a href="#" class="navbar-center_link">Categories</a></li>
+            <li><a href="#" class="navbar-center_link">Wishlist</a></li>
+          </ul>
+        </nav>
+
+        <!--bên phải thanh điều hướng-->
+        <div class="navbar-right">
+          <div class="search-wrap">
+            <!--nút tìm kiếm-->
+            <button
+              class="search-Btn"
+              id="searchToggle"
+              aria-label="Tìm kiếm..."
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <!--ô nhập tìm kiếm-->
+            <div class="search-box" id="searchBox">
+              <input
+                type="text"
+                id="searchInput"
+                placeholder="Tìm kiếm sách..."
+              />
+            </div>
+          </div>
+          <!--giỏ hàng-->
+          <a href="#" class="cart-Btn" id="cartToggle" aria-label="giỏ hàng">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <!--nút Join-->
+          <a href="#" class="popup-signin">Join</a>
+        </div>
+      </div>
+
+      <!--thanh điều hướng giao diện mobile-->
+      <nav class="navbar-mobile" id="navbarMobile">
+        <a href="#" class="navbar-center_link active">Home</a>
+        <a href="#" class="navbar-center_link">Categories</a>
+        <a href="#" class="navbar-center_link">Wishlist</a>
+      </nav>
+    </header>
+
+    <!--Popup Sign in/ Sign up-->
+    <div class="popup-overlay" id="popupOverlay">
+      <div class="popup-box">
+        <!--nút đóng tab-->
+        <button class="popup-close" id="popupClose" aria-label="Close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <!--Tabs-->
+        <div class="popup-tabs">
+          <button class="tab-btn active" data-tab="signin">Sign In</button>
+          <button class="tab-btn" data-tab="signup">Sign Up</button>
+        </div>
+
+        <!--Sign In Form-->
+        <form class="popup-form active" id="signinForm">
+          <h2 class="popup-title">Welcome Back</h2>
+
+          <div class="input-group">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" id="signinEmail" placeholder="Email" required />
+          </div>
+
+          <div class="input-group">
+            <i class="fa-solid fa-lock"></i>
+            <input
+              type="password"
+              id="signinPassword"
+              placeholder="Password"
+              required
+            />
+            <i
+              class="fa-solid fa-eye toggle-eye"
+              data-target="signinPassword"
+            ></i>
+          </div>
+
+          <div class="form-row">
+            <label class="remember"> <input type="checkbox" />Remember </label>
+            <a href="#" class="forgot-link">Forgot password?</a>
+          </div>
+
+          <button type="submit" class="submit-btn">Sign In</button>
+
+          <p class="switch-text">
+            Don't have an account?
+            <span class="switch-link" data-tab="signup">Sign up now</span>
+          </p>
+        </form>
+
+        <!--Sign Up Form-->
+        <form class="popup-form" id="signupForm">
+          <h2 class="popup-title">Create an Account</h2>
+
+          <div class="input-group">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" id="signupName" placeholder="Full name" required">
+          </div>
+
+          <div class="input-group">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" id="signupEmail" placeholder="Email" required>
+          </div>
+
+          <div class="input-group">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" id="signupPassword" placeholder="Password" required>
+            <i class="fa-solid fa-eye toggle-eye" data-target="signupPassword"></i>
+          </div>
+
+          <div class="input-group">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" id="signupConfirm" placeholder="Confirm password" required>
+            <i class="fa-solid fa-eye toggle-eye" data-target="signupConfirm"></i>
+          </div>
+
+          <label class="remember">
+            <input type="checkbox" required> I agree to the 
+            <a href="#">Terms of Service</a>
+          </label>
+
+          <button type="submit" class="submit-btn">Sign Up</button>
+
+          <p class="switch-text">
+            Already have an account?
+            <span class="switch-link" data-tab="signin">Sign in</span>
+          </p>
+        </form>
+      </div>
+    </div>
+    
+    <footer class="footer-page">
+      <div class="footer-container">
+        <div class="footer-col">
+          <div class="footer-brand">
+            <img src="/images/logoOwlbook.png" alt="Owlbook"/>
+            <span>Owlbook</span>
+          </div>
+          <p class="footer-desc">
+            Owlbook - your destination for great books, fast shipping, and fair
+            prices for every reader.
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="Youtube"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="#" aria-label="Twitter"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Cart</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Payment Methods</a></li>
+            <li><a href="#">Shipping & Delivery</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li>
+              <i class="fa-solid fa-location-dot"></i> 123 Book Street, District
+              x, Can Tho City
+            </li>
+            <li><i class="fa-solid fa-phone"></i> +84 9xx xxx xxx</li>
+            <li><i class="fa-solid fa-envelope"></i> support@owlbook.vn</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Owlbook. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
